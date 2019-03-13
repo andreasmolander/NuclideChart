@@ -1,0 +1,61 @@
+﻿/*
+    Styles for the nuclide chart
+*/
+
+#ncCartNotificationText {
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.ncChartButton {
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.ncLegendDiv {
+    margin-bottom: 10px
+}
+
+.ncLegendDiv > span {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+line.ncMagicNumber {
+    stroke: #000000;
+    stroke-width: 5;
+    shape-rendering: crispEdges;
+}
+
+.ncLegendTick {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.ncDecayModeLegendColor {
+    display: inline;
+    width: 0.5em;
+    height: 0.5em;
+    float: left;
+    margin-top: 6px;
+    margin-right: 0.5em;
+}
+
+rect[class="ncChartAxis"] {
+    fill: #ffffff;
+    fill-opacity: 0.8;
+}
+
+.ncAxis .domain {
+    stroke: none;
+}
+
+.ncAxis line {
+    stroke: #999;
+}
+
+.ncAxis text {
+    fill: #999;
+}
